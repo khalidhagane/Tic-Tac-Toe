@@ -31,7 +31,7 @@ function myfunction(){
 
     for(i=1;i<=a.length;i++){
         if(b1==b1 &&  b2==b1 && b3==b1 && b1!="" && b2!="" && b3!=""){
-            console.log('kain')
+            
             setTimeout(function(){alert("nta kain ");},100)
             break;
         }

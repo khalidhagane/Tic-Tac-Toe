@@ -14,49 +14,30 @@
 <body>
     <main class="background ">
 
-        <section class="title text-center">
+        <section class="title text-center mt-5">
             <h1>Tic Tac Toe</h1>
         </section>
         
         <section class="display text-center ">
-            Player<span class="display-player playerX "></span>'s turn
+            Player<span class="display-player playerX ">X</span>'s turn
         </section>
-        <section>
-            <div class=" d-flex justify-content-center gap-3 mt-3">
-             
-            <div class="d-flex flex-column">
-            <label class="fs-6">player N°1:</label>
-            <input type="text" class="form" id="playe1" placeholder="name ">
-            </div>
-            <div class="d-flex flex-column">
-                <label class="fs-6">player N°2:</label>
-            <input type="text" class="form" id="playe2" placeholder="name">
+        
+        <form class=" d-flex flex-column  justify-content-center ">
+            <div class=" d-flex  justify-content-center gap-3 mt-5">
+                <div class="d-flex flex-column">
+                    <label class="fs-6">player N°1:</label>
+                    <input type="text" class="form mt-1" id="playe1" placeholder="name ">
                 </div>
-            
+                <div class="d-flex flex-column">
+                    <label class="fs-6">player N°2:</label>
+                    <input type="text" class="form mt-1" id="playe2" placeholder="name">
+                </div>
             </div>
+            <button class="btn btn-light mt-4" type="submit">démarrer le jeux</button>
             
-        </section>
-
-        <section class="container  mt-4">
-            <div type="text" class="item bg-light border-start-0 border-top-0 " id="b1" onclick= "myfunc_prant('b1');myfunction();" ></div>
-            <div type="text" class="item bg-light border-top-0" id="b2"  onclick="myfunc_prant('b2');myfunction(); " ></div>
-            <div class="item bg-light border-top-0 border-end-0 " id="b3" onclick="myfunc_prant('b3');myfunction();"></div>
-
-            <div class="item bg-light border-start-0 " id="b4" onclick="myfunc_prant('b4'); myfunction();"></div>
-            <div class="item bg-light " id="b5" onclick="myfunc_prant('b5'); myfunction();"></div>
-            <div class="item bg-light   border-end-0 " id="b6" onclick="myfunc_prant('b6'); myfunction();" ></div>
-
-            <div class="item bg-light border-start-0 border-bottom-0" id="b7" onclick="myfunc_prant('b7'); myfunction();"></div>
-            <div class="item bg-light border-bottom-0 " id="b8" onclick="myfunc_prant('b8'); myfunction();"></div>
-            <div class="item bg-light border-end-0 border-bottom-0" id="b9" onclick="myfunc_prant('b9'); myfunction();"></div>
-        </section>
-
-        <!-- <section class="display announcer hide"></section> -->
-
-        <section class="controls text-center mt-3" >
-            <button class="btn btn-secondary" id="reset" >Reset</button>
-        </section>
-
+        </form>
+            
+        
     </main>
 </body>
-</html>
+</html>        

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="background vh-100 d-flex flex-column  justify-content-center">
+        <div class=" ">
+
+            <section class="title text-center">
+                <h1>Tic Tac Toe</h1>
+            </section>
+    <!--         
+            <section class="display text-center ">
+                Player<span class="display-player playerX "></span>'s turn
+            </section>
+            <section>
+                <div class=" d-flex justify-content-center gap-3 mt-3">
+                
+                <div class="d-flex flex-column">
+                <label class="fs-6">player N°1:</label>
+                <input type="text" class="form" id="playe1" placeholder="name ">
+                </div>
+                <div class="d-flex flex-column">
+                    <label class="fs-6">player N°2:</label>
+                <input type="text" class="form" id="playe2" placeholder="name">
+                    </div>
+                
+                </div>
+                
+            </section> -->
+
+            <section class="container  mt-5">
+                <div type="text" class="item bg-light border-start-0 border-top-0 " id="b1" onclick= "myfunc_prant('b1');myfunction();" ></div>
+                <div type="text" class="item bg-light border-top-0" id="b2"  onclick="myfunc_prant('b2');myfunction(); " ></div>
+                <div class="item bg-light border-top-0 border-end-0 " id="b3" onclick="myfunc_prant('b3');myfunction();"></div>
+
+                <div class="item bg-light border-start-0 " id="b4" onclick="myfunc_prant('b4'); myfunction();"></div>
+                <div class="item bg-light " id="b5" onclick="myfunc_prant('b5'); myfunction();"></div>
+                <div class="item bg-light   border-end-0 " id="b6" onclick="myfunc_prant('b6'); myfunction();" ></div>
+
+                <div class="item bg-light border-start-0 border-bottom-0" id="b7" onclick="myfunc_prant('b7'); myfunction();"></div>
+                <div class="item bg-light border-bottom-0 " id="b8" onclick="myfunc_prant('b8'); myfunction();"></div>
+                <div class="item bg-light border-end-0 border-bottom-0" id="b9" onclick="myfunc_prant('b9'); myfunction();"></div>
+            </section>
+
+            <!-- <section class="display announcer hide"></section> -->
+
+            <!-- <section class="controls text-center mt-3" >
+                <button class="btn btn-secondary" id="reset" >Reset</button>
+            </section> -->
+        </div>
+
+    </main>
+</body>
+</html>
