@@ -10,7 +10,7 @@
     grid-template-rows: 33% 33% 33%;
     max-width: 300px;
 }
-.tile {
+.item {
     border: 2px solid black;
     min-width: 100px;
     min-height: 100px;
