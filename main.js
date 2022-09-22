@@ -1,4 +1,12 @@
+function players(){
+    let player1 = document.getElementById("player1").value
+    let player2 = document.getElementById("player2").value
 
+    localStorage.setItem("playerone", player1);
+    localStorage.setItem("playertow", player2);
+}
+document.getElementById("demo1").innerHTML = localStorage.getItem("playerone");
+document.getElementById("demo2").innerHTML = localStorage.getItem("playertow");
 
 let item = 1;
 function myfunc_prant(id) {
@@ -12,10 +20,7 @@ function myfunc_prant(id) {
     }
 }
 
-
 function myfunction(){
-    
-    
         var  b1,b2,b3,b4,b5,b6,b7,b8,b9;
     b1 = document.getElementById("b1").innerHTML;
     b2 = document.getElementById("b2").innerHTML;
