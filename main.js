@@ -1,12 +1,13 @@
-function players(){
-    let player1 = document.getElementById("player1").value
-    let player2 = document.getElementById("player2").value
 
-    localStorage.setItem("playerone", player1);
-    localStorage.setItem("playertow", player2);
-}
-document.getElementById("demo1").innerHTML = localStorage.getItem("playerone");
-document.getElementById("demo2").innerHTML = localStorage.getItem("playertow");
+document.getElementById("demo1").innerText = localStorage.getItem("playerone");
+
+document.getElementById("demo2").innerText = localStorage.getItem("playertow");
+
+
+
+
+console.log(document.getElementById("demo1"))
+
 
 let item = 1;
 function myfunc_prant(id) {
