@@ -14,7 +14,7 @@
 <body>
     <main class="background ">
 
-        <section class="title text-center mt-5">
+        <section class="title text-center mt-5 ">
             <h1>Tic Tac Toe</h1>
         </section>
         
@@ -26,19 +26,17 @@
             <div class=" d-flex  justify-content-center gap-3 mt-5">
                 <div class="d-flex flex-column">
                     <label class="fs-6">player N°1:</label>
-                    <input type="text" class="form mt-1" id="player1" placeholder="name " >
+                    <input type="text" class="form mt-1 p-1" id="player1" placeholder="name " >
                 </div>
                 <div class="d-flex flex-column">
                     <label class="fs-6">player N°2:</label>
-                    <input type="text" class="form mt-1" id="player2" placeholder="name">
+                    <input type="text" class="form mt-1 p-1" id="player2" placeholder="name">
                 </div>
             </div >
             
-            <button class=" btn btn-light mt-4 " type="submit" style="width: 20%" onclick="players()">START</button>
+            <button class=" btn btn-secondary mt-4 fs-3 " type="submit" style="width: 15%" onclick="players()">START</button>
         </form>
-   
-        
-        
+ 
     </main>
 </body>
 <script >
@@ -49,10 +47,7 @@ function players(){
 
     localStorage.setItem("playerone", player1);
     localStorage.setItem("playertow", player2);
-
-    // document.getElementById('demo1').innerHTML= "Xxxxx";
     window.location('jeux.html')
-
 }
 </script>
 </html>        
